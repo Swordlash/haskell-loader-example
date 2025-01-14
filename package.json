@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "BSD-3-Clause",
   "description": "",
   "dependencies": {
     "@haskell-org/ghc-installer": "file:../ghc-installer-npm/haskell-org-ghc-installer-0.1.0.tgz",
