@@ -1,0 +1,14 @@
+cabal-version:      3.14
+name:               example
+version:            0.1.0.0
+license:            MIT
+author:             Mateusz Goślinowski
+maintainer:         mateusz.goslinowski@gmail.com
+category:           Web
+build-type:         Simple
+
+executable example
+    main-is:          Main.hs
+    build-depends:    base
+    hs-source-dirs:   app
+    default-language: GHC2024

@@ -1,0 +1,23 @@
+{
+  "name": "ghcup-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack build",
+    "serve": "npx http-server dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@haskell-org/ghc-installer": "file:../ghc-installer-npm/haskell-org-ghc-installer-0.1.0.tgz",
+    "@haskell-org/haskell-loader": "file:../haskell-loader/haskell-org-haskell-loader-0.1.0.tgz",
+    "@swc/core": "^1.10.7",
+    "html-webpack-plugin": "^5.6.3",
+    "http-server": "^14.1.1",
+    "swc-loader": "^0.2.6",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
